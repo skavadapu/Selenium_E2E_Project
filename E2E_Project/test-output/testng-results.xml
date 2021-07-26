@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11784" started-at="2020-07-14T21:02:13 BST" finished-at="2020-07-14T21:02:24 BST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11784" started-at="2020-07-14T21:02:13 BST" finished-at="2020-07-14T21:02:24 BST">
+      <class name="Academy.HomePageTest">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:Academy.HomePageTest@40ef3420]" name="startUp" is-config="true" duration-ms="3658" started-at="2020-07-14T21:02:15 BST" finished-at="2020-07-14T21:02:18 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="HomePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePageTest@40ef3420]" name="HomePageNavigation" duration-ms="1554" started-at="2020-07-14T21:02:18 BST" data-provider="getData" finished-at="2020-07-14T21:02:20 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hello@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[First test set data passed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageNavigation -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:Academy.HomePageTest@40ef3420]" name="startUp" is-config="true" duration-ms="2875" started-at="2020-07-14T21:02:20 BST" finished-at="2020-07-14T21:02:23 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="HomePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePageTest@40ef3420]" name="HomePageNavigation" duration-ms="1569" started-at="2020-07-14T21:02:23 BST" data-provider="getData" finished-at="2020-07-14T21:02:24 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[randomemail@anywhere.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Second test set data passed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.HomePageTest@40ef3420]" name="teardown" is-config="true" duration-ms="84" started-at="2020-07-14T21:02:24 BST" finished-at="2020-07-14T21:02:24 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

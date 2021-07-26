@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">  <!-- parallel=tests runs all tests in parallely -->
+
+ 
+  <test thread-count="5" name="Test1">  <!-- Note: if we put all classes under one test then 'AfterTest annotation runs after all classes that's why divided classes -->
+    	<classes>
+      		<class name="cucumberOptions.TestRunner"/>
+      	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
